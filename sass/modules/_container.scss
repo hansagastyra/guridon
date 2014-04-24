@@ -1,0 +1,36 @@
+/* =Container
+----------------------------------------------- */
+body{
+    background: url("img/fabric_of_squares_gray.png") repeat;
+}
+.columns{
+    padding: 0;
+    .columns{
+        padding: 0;
+    }
+}
+.row{
+    margin: 0;
+    padding: 0;
+    max-width: none;
+}
+.fluid-container{
+    width: 100%;
+    margin: auto;
+}
+.item{
+    padding: 0.3em;
+    width: 100%;
+}
+
+@media all and (min-width: 40.063em){
+    .item{
+        width: 33.3%;
+    }
+}
+
+@media all and (min-width: 64.063em) {
+    .item{
+        width: 25%;
+    }
+}

@@ -1,0 +1,51 @@
+/* =Content
+----------------------------------------------- */
+
+.sticky {
+}
+.hentry {
+	margin: 0;
+        background: white;
+        opacity: 0.8;
+        font-size: 0.8em;
+        border-top: 2px solid $grey;
+        border-bottom: 2px solid $grey;
+}
+.hentry:after{
+        opacity: 1;
+}
+.byline,
+.updated {
+	display: none;
+}
+.single, .group-blog {
+	.byline {
+		display: inline;
+	}
+}
+.entry-title{
+    margin-top: 0.5em;
+    padding: 0 0.5em;
+    text-align: center;
+}
+.entry-image{
+    position: relative;
+}
+.entry-image .entry-title{
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: calc(50% - $valign/2);
+}
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: $vspacing 0 0;
+        padding: 0 1em;
+}
+.page-links {
+	clear: both;
+	margin: 0 0 $vspacing;
+}

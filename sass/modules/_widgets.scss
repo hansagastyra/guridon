@@ -1,0 +1,42 @@
+/* =Widgets
+----------------------------------------------- */
+.widget-area{
+        font-size: 0.8em;
+        padding: 1.5em;
+}
+.widget {
+	margin: 0 0 $vspacing;
+
+	/* Make sure select elements fit in widgets */
+	select {
+		max-width: 100%;
+	}
+}
+
+/* Search widget */
+.search-field {
+    width: 100%;
+}
+.search-submit {
+    display: none;
+}
+
+/* Calendar widget */
+.widget_calendar{
+    caption{
+        font-weight: bold;
+        font-size: 1.25em;
+        margin-top: 0.2em;
+        margin-bottom: 0.5em;
+    }
+    tbody tr td{
+        text-align: center;
+        border: 1px solid;
+    }
+    th{
+        border: 1px solid;
+    }
+    tfoot tr td#next{
+        text-align: right;
+    }
+}
